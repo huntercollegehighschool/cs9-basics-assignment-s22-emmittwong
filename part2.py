@@ -7,9 +7,9 @@ Run the code below. Fix it so that the program will print the product of the num
 and 10 in the formatted sentence that's already there, and the sum of 99 and the 
 number in the formatted sentence that's already there.
 
-'''
+'''  
 
 #code starts here
-number = input("Enter a number: ")
-print("Ten times your number is", 10 * number)
+number = int(input("Enter a number: "))
+print("Ten times your number is", number*10)
 print("Ninety-nine more than your number is", 99 + number)
